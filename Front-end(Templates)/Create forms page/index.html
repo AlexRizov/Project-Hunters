@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Create project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>Create new project</header>
+      <form action="#" class="form">
+        <div class="input-box">
+          <label>Project name</label>
+          <input type="text" placeholder="New project" required />
+        </div>
+        <div class="input-box">
+          <label>Description</label>
+          <textarea id="description" name="description" rows="4" cols="1" class="textarea" placeholder="A short description"></textarea>
+        </div>
+
+        <div class="input-box">
+          <label>Details</label>
+          <textarea id="details" name="details" rows="4" cols="1" class="textarea" placeholder="Project details"></textarea>
+        </div>
+
+        <div class="input-box">
+          <label>Pay</label>
+          <input type="text" placeholder="5$/h, 0.05$ per line, 100$, etc" required />
+        </div>       
+        
+        <div class="input-box">
+          <label>Current bids</label>
+          <input type="number" placeholder="0" min="0" required />
+        </div>
+
+        <button>Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
